@@ -1,0 +1,30 @@
+[project]
+name = "etl-mysql-xml"
+description = "ETL for study data from MySQL to XML"
+version = "1.0.0"
+authors = [
+    { name = "Matheus Gois Vieira", email = "matheusmaxi9.0@gmail.com" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = [
+    "black==22.12.0",
+    "click==8.1.3",
+    "flake8==6.0.0",
+    "mypy==0.991",
+    "mysqlclient==2.1.1",
+    "pyflakes==3.0.1",
+    "pytest==7.2.0",
+    "pytest-flake8==1.1.1",
+    "pytest-mypy==0.10.3",
+    "pytest-mysql==2.3.1",
+    "refurb==1.9.0",
+    "isort==5.11.4",
+    "pylint==2.15.9",
+    "mysql-connector-python==8.0.31",
+]
